@@ -60,12 +60,6 @@
             font-weight: 700;
         }
 
-        .hero p {
-            font-size: 18px;
-            color: #555;
-            margin-bottom: 10px;
-        }
-
         .badge-fucsia {
             background-color: var(--fucsia-marca);
             color: var(--blanco);
@@ -83,10 +77,7 @@
             padding: 0 20px 80px 20px;
         }
 
-        /* DISEÑO DE NIVELES */
-        .level-section {
-            margin-top: 50px;
-        }
+        .level-section { margin-top: 50px; }
 
         .level-header {
             display: flex;
@@ -96,10 +87,7 @@
             padding-left: 15px;
         }
 
-        .level-header h2 {
-            font-size: 28px;
-            color: var(--verde-marca);
-        }
+        .level-header h2 { font-size: 28px; color: var(--verde-marca); }
 
         .game-grid {
             display: grid;
@@ -107,7 +95,6 @@
             gap: 25px;
         }
 
-        /* TARJETAS DE JUEGOS */
         .game-card {
             background-color: var(--blanco);
             border-radius: 20px;
@@ -124,21 +111,11 @@
         .game-card:hover {
             transform: translateY(-8px);
             border-color: var(--verde-marca);
-            box-shadow: 0 15px 35px rgba(46, 111, 64, 0.2);
         }
 
-        .game-icon {
-            font-size: 50px;
-            margin-bottom: 15px;
-            display: block;
-        }
+        .game-icon { font-size: 50px; margin-bottom: 15px; display: block; }
 
-        .game-card h3 {
-            font-size: 19px;
-            color: var(--texto-oscuro);
-            margin-bottom: 20px;
-            font-weight: 600;
-        }
+        .game-card h3 { font-size: 18px; color: var(--texto-oscuro); margin-bottom: 20px; font-weight: 600; }
 
         .btn-play {
             display: inline-block;
@@ -148,25 +125,18 @@
             border-radius: 50px;
             text-decoration: none;
             font-weight: 600;
-            font-size: 15px;
-            transition: background 0.3s;
+            font-size: 14px;
+            transition: 0.3s;
         }
 
-        .btn-play:hover {
-            background-color: var(--fucsia-marca);
-        }
+        .btn-play:hover { background-color: var(--fucsia-marca); }
 
         footer {
             background-color: var(--verde-marca);
             color: var(--blanco);
             text-align: center;
-            padding: 40px 20px;
+            padding: 40px;
             margin-top: 60px;
-        }
-
-        @media (max-width: 768px) {
-            header { padding: 15px 20px; }
-            .hero { padding: 40px 20px; }
         }
     </style>
 </head>
@@ -180,147 +150,83 @@
         <span class="badge-fucsia">Free Spanish Games — Practice While You Play 🎮</span>
         <h1>Fun & Natural Learning</h1>
         <p>Interactive games designed to help you practice Spanish vocabulary and grammar in a fun and natural way.</p>
-        <p><strong>Choose your level and start playing — no registration needed, completely free. ♥</strong></p>
+        <p><strong>Choose your level and start playing — no registration needed. ♥</strong></p>
     </section>
 
     <main class="container">
         
         <section class="level-section">
-            <div class="level-header">
-                <h2>Level A1 — Beginner</h2>
-            </div>
+            <div class="level-header"><h2>Level A1 — Beginner</h2></div>
             <div class="game-grid">
-                
                 <div class="game-card">
-                    <div>
-                        <span class="game-icon">🌍</span>
-                        <h3>Construye Nacionalidades</h3>
-                    </div>
+                    <div><span class="game-icon">🌍</span><h3>Nacionalidades</h3></div>
                     <a href="construye-nacionalidades-A1.html" class="btn-play">Play Now 🎮</a>
                 </div>
-
                 <div class="game-card">
-                    <div>
-                        <span class="game-icon">🎨</span>
-                        <h3>Memoria de Colores</h3>
-                    </div>
+                    <div><span class="game-icon">🎨</span><h3>Colores</h3></div>
                     <a href="juego-memoria-colores-A1.html" class="btn-play">Play Now 🎮</a>
                 </div>
-
                 <div class="game-card">
-                    <div>
-                        <span class="game-icon">🏠</span>
-                        <h3>Sopa de Letras: La Familia</h3>
-                    </div>
+                    <div><span class="game-icon">🏠</span><h3>La Casa</h3></div>
+                    <a href="la-casa-a1.html" class="btn-play">Play Now 🎮</a>
+                </div>
+                <div class="game-card">
+                    <div><span class="game-icon">👨‍👩‍👧</span><h3>La Familia</h3></div>
                     <a href="sopa-de-letras-familia-A1.html" class="btn-play">Play Now 🎮</a>
                 </div>
-
                 <div class="game-card">
-                    <div>
-                        <span class="game-icon">🦁</span>
-                        <h3>Memoria: Animales Salvajes</h3>
-                    </div>
-                    <a href="memoria_animales_salvajes_A1 .html" class="btn-play">Play Now 🎮</a>
+                    <div><span class="game-icon">🦁</span><h3>Animales Salvajes</h3></div>
+                    <a href="animales-a1.html" class="btn-play">Play Now 🎮</a>
                 </div>
-
                 <div class="game-card">
-                    <div>
-                        <span class="game-icon">🥗</span>
-                        <h3>Construye: Verduras y Hortalizas</h3>
-                    </div>
-                    <a href="verdurasyhortalizas A1.html" class="btn-play">Play Now 🎮</a>
+                    <div><span class="game-icon">🥦</span><h3>Verduras</h3></div>
+                    <a href="verduras-a1.html" class="btn-play">Play Now 🎮</a>
                 </div>
-
                 <div class="game-card">
-                    <div>
-                        <span class="game-icon">👨‍🏫</span>
-                        <h3>Rompecabezas: Profesiones</h3>
-                    </div>
-                    <a href="lasprofesiones A1.html" class="btn-play">Play Now 🎮</a>
+                    <div><span class="game-icon">💼</span><h3>Profesiones</h3></div>
+                    <a href="profesiones-a1.html" class="btn-play">Play Now 🎮</a>
                 </div>
-
                 <div class="game-card">
-                    <div>
-                        <span class="game-icon">⏰</span>
-                        <h3>Memoria: La Hora</h3>
-                    </div>
-                    <a href="lahora A1 .html" class="btn-play">Play Now 🎮</a>
+                    <div><span class="game-icon">⏰</span><h3>La Hora</h3></div>
+                    <a href="la-hora-a1.html" class="btn-play">Play Now 🎮</a>
                 </div>
-
                 <div class="game-card">
-                    <div>
-                        <span class="game-icon">🧳</span>
-                        <h3>Memoria: Viajes</h3>
-                    </div>
-                    <a href="juegomemoriaviajes A1.html" class="btn-play">Play Now 🎮</a>
+                    <div><span class="game-icon">✈️</span><h3>Viajes</h3></div>
+                    <a href="memoria-viajes-a1.html" class="btn-play">Play Now 🎮</a>
                 </div>
-
-                <div class="game-card">
-                    <div>
-                        <span class="game-icon">❓</span>
-                        <h3>Palabras Interrogativas</h3>
-                    </div>
-                    <a href="palabras-interrogativas.html" class="btn-play">Play Now 🎮</a>
-                </div>
-
             </div>
         </section>
 
         <section class="level-section">
-            <div class="level-header">
-                <h2>Level A2 — Elementary</h2>
-            </div>
+            <div class="level-header"><h2>Level A2 — Elementary</h2></div>
             <div class="game-grid">
-                
                 <div class="game-card">
-                    <div>
-                        <span class="game-icon">🏙️</span>
-                        <h3>Descubre la Ciudad</h3>
-                    </div>
+                    <div><span class="game-icon">🏙️</span><h3>La Ciudad</h3></div>
                     <a href="descubre-la-ciudad-A2.html" class="btn-play">Play Now 🎮</a>
                 </div>
-
                 <div class="game-card">
-                    <div>
-                        <span class="game-icon">✍️</span>
-                        <h3>Completar Oraciones</h3>
-                    </div>
-                    <a href="completar oraciones.A2.html" class="btn-play">Play Now 🎮</a>
+                    <div><span class="game-icon">✍️</span><h3>Oraciones</h3></div>
+                    <a href="oraciones-a2.html" class="btn-play">Play Now 🎮</a>
                 </div>
-
             </div>
         </section>
 
         <section class="level-section">
-            <div class="level-header">
-                <h2>Level B2 — Upper Intermediate</h2>
-            </div>
+            <div class="level-header"><h2>Level B2 — Upper Intermediate</h2></div>
             <div class="game-grid">
-                
                 <div class="game-card">
-                    <div>
-                        <span class="game-icon">📝</span>
-                        <h3>Subjuntivo: Estructura</h3>
-                    </div>
+                    <div><span class="game-icon">📝</span><h3>Subjuntivo: Estructura</h3></div>
                     <a href="subjuntivo-completa-estructura.B2.html" class="btn-play">Play Now 🎮</a>
                 </div>
-
                 <div class="game-card">
-                    <div>
-                        <span class="game-icon">✨</span>
-                        <h3>Subjuntivo: Deseos y Necesidades</h3>
-                    </div>
+                    <div><span class="game-icon">✨</span><h3>Subjuntivo: Deseos</h3></div>
                     <a href="subjuntivo-deseos-necesidades-B2.html" class="btn-play">Play Now 🎮</a>
                 </div>
-
             </div>
         </section>
 
     </main>
 
-    <footer>
-        <p>© 2026 Pao Spanish Teacher 🌿 — Learn Spanish with passion.</p>
-    </footer>
-
+    <footer><p>© 2026 Pao Spanish Teacher 🌿 — Pasión por la enseñanza.</p></footer>
 </body>
 </html>
