@@ -1,135 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Spanish Games — Pao Spanish Teacher</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --fondo: #FDFBF7;
-            --verde: #2E6F40;
-            --fucsia: #E0218A;
-            --texto: #2B2A27;
-            --blanco: #ffffff;
-        }
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: 'Poppins', sans-serif; background-color: var(--fondo); color: var(--texto); line-height: 1.6; }
-        header { background-color: var(--blanco); padding: 20px; text-align: center; border-bottom: 3px solid var(--verde); position: sticky; top: 0; z-index: 100; }
-        .logo { font-size: 24px; font-weight: 700; color: var(--verde); text-decoration: none; }
-        .hero { text-align: center; padding: 40px 20px; max-width: 800px; margin: 0 auto; }
-        .hero h1 { font-size: 36px; color: var(--verde); margin-bottom: 10px; }
-        .badge { background-color: var(--fucsia); color: var(--blanco); padding: 5px 15px; border-radius: 20px; font-size: 14px; font-weight: 600; display: inline-block; margin-bottom: 15px; }
-        .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
-        .level-header { border-left: 5px solid var(--fucsia); padding-left: 15px; margin: 40px 0 20px; }
-        .level-header h2 { color: var(--verde); }
-        .game-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
-        .game-card { background: var(--blanco); border-radius: 15px; padding: 25px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border: 1px solid #eee; transition: 0.3s; }
-        .game-card:hover { transform: translateY(-5px); border-color: var(--verde); }
-        .game-icon { font-size: 40px; margin-bottom: 10px; display: block; }
-        .btn-play { display: inline-block; background: var(--verde); color: white; padding: 10px 20px; border-radius: 25px; text-decoration: none; font-weight: 600; margin-top: 15px; }
-        .btn-play:hover { background: var(--fucsia); }
-        footer { background: var(--verde); color: white; text-align: center; padding: 30px; margin-top: 50px; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spanish Games — Pao Spanish Teacher</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--fondo:#FDFBF7;--verde:#2E6F40;--fucsia:#E0218A;--texto:#2B2A27;--blanco:#ffffff}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Poppins',sans-serif;background-color:var(--fondo);color:var(--texto)}
+header{background:var(--blanco);padding:20px;text-align:center;border-bottom:3px solid var(--verde)}
+.logo{font-size:22px;font-weight:700;color:var(--verde);text-decoration:none}
+.container{max-width:1000px;margin:0 auto;padding:20px}
+h2{color:var(--verde);border-left:5px solid var(--fucsia);padding-left:10px;margin:30px 0 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px}
+.card{background:var(--blanco);border-radius:12px;padding:20px;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,0.05);border:1px solid #eee}
+.btn{display:inline-block;background:var(--verde);color:white;padding:10px 20px;border-radius:20px;text-decoration:none;font-weight:600;margin-top:10px}
+.btn:hover{background:var(--fucsia)}
+</style>
 </head>
 <body>
-
-    <header>
-        <a href="#" class="logo">Pao Spanish Teacher 🌿</a>
-    </header>
-
-    <section class="hero">
-        <span class="badge">Spanish Games — Practice for Free</span>
-        <h1>Fun & Natural Learning</h1>
-        <p>Interactive games to practice your Spanish vocabulary.</p>
-    </section>
-
-    <main class="container">
-        
-        <div class="level-header"><h2>Nivel A1 — Principiante</h2></div>
-        <div class="game-grid">
-            <div class="game-card">
-                <span class="game-icon">🌍</span>
-                <h3>Nacionalidades</h3>
-                <a href="construye-nacionalidades-A1.html" class="btn-play">Jugar ahora</a>
-            </div>
-            <div class="game-card">
-                <span class="game-icon">🎨</span>
-                <h3>Colores</h3>
-                <a href="juego-memoria-colores-A1.html" class="btn-play">Jugar ahora</a>
-            </div>
-            <div class="game-card">
-                <span class="game-icon">🏠</span>
-                <h3>La Casa</h3>
-                <a href="lacasa%20A1.html" class="btn-play">Jugar ahora</a>
-            </div>
-            <div class="game-card">
-                <span class="game-icon">👨‍👩‍👧</span>
-                <h3>La Familia</h3>
-                <a href="sopa-de-letras-familia-A1.html" class="btn-play">Jugar ahora</a>
-            </div>
-            <div class="game-card">
-                <span class="game-icon">🦁</span>
-                <h3>Animales</h3>
-                <a href="memoria_animales_salvajes_A1%20.html" class="btn-play">Jugar ahora</a>
-            </div>
-            <div class="game-card">
-                <span class="game-icon">🥦</span>
-                <h3>Verduras</h3>
-                <a href="verdurasyhortalizas%20A1.html" class="btn-play">Jugar ahora</a>
-            </div>
-            <div class="game-card">
-                <span class="game-icon">💼</span>
-                <h3>Profesiones</h3>
-                <a href="lasprofesiones%20A1.html" class="btn-play">Jugar ahora</a>
-            </div>
-            <div class="game-card">
-                <span class="game-icon">⏰</span>
-                <h3>La Hora</h3>
-                <a href="lahora%20A1%20.html" class="btn-play">Jugar ahora</a>
-            </div>
-            <div class="game-card">
-                <span class="game-icon">✈️</span>
-                <h3>Viajes</h3>
-                <a href="juegomemoriaviajes%20A1.html" class="btn-play">Jugar ahora</a>
-            </div>
-            <div class="game-card">
-                <span class="game-icon">❓</span>
-                <h3>Preguntas</h3>
-                <a href="palabras-interrogativas.html" class="btn-play">Jugar ahora</a>
-            </div>
-        </div>
-
-        <div class="level-header"><h2>Nivel A2 — Elemental</h2></div>
-        <div class="game-grid">
-            <div class="game-card">
-                <span class="game-icon">🏙️</span>
-                <h3>La Ciudad</h3>
-                <a href="descubre-la-ciudad-A2.html" class="btn-play">Jugar ahora</a>
-            </div>
-            <div class="game-card">
-                <span class="game-icon">✍️</span>
-                <h3>Oraciones</h3>
-                <a href="completar%20oraciones.A2.html" class="btn-play">Jugar ahora</a>
-            </div>
-        </div>
-
-        <div class="level-header"><h2>Nivel B2 — Intermedio</h2></div>
-        <div class="game-grid">
-            <div class="game-card">
-                <span class="game-icon">📝</span>
-                <h3>Subjuntivo 1</h3>
-                <a href="subjuntivo-completa-estructura.B2.html" class="btn-play">Jugar ahora</a>
-            </div>
-            <div class="game-card">
-                <span class="game-icon">✨</span>
-                <h3>Subjuntivo 2</h3>
-                <a href="subjuntivo-deseos-necesidades-B2.html" class="btn-play">Jugar ahora</a>
-            </div>
-        </div>
-
-    </main>
-
-    <footer><p>© 2026 Pao Spanish Teacher 🌿</p></footer>
+<header><a href="#" class="logo">Pao Spanish Teacher 🌿</a></header>
+<div class="container">
+<h2>Nivel A1</h2>
+<div class="grid">
+<div class="card"><h3>🌍 Nacionalidades</h3><a href="construye-nacionalidades-A1.html" class="btn">Jugar</a></div>
+<div class="card"><h3>🎨 Colores</h3><a href="juego-memoria-colores-A1.html" class="btn">Jugar</a></div>
+<div class="card"><h3>🏠 La Casa</h3><a href="lacasa%20A1.html" class="btn">Jugar</a></div>
+<div class="card"><h3>👨‍👩‍👧 La Familia</h3><a href="sopa-de-letras-familia-A1.html" class="btn">Jugar</a></div>
+<div class="card"><h3>🦁 Animales</h3><a href="memoria_animales_salvajes_A1%20.html" class="btn">Jugar</a></div>
+<div class="card"><h3>🥦 Verduras</h3><a href="verdurasyhortalizas%20A1.html" class="btn">Jugar</a></div>
+<div class="card"><h3>💼 Profesiones</h3><a href="lasprofesiones%20A1.html" class="btn">Jugar</a></div>
+<div class="card"><h3>⏰ La Hora</h3><a href="lahora%20A1%20.html" class="btn">Jugar</a></div>
+<div class="card"><h3>✈️ Viajes</h3><a href="juegomemoriaviajes%20A1.html" class="btn">Jugar</a></div>
+<div class="card"><h3>❓ Preguntas</h3><a href="palabras-interrogativas.html" class="btn">Jugar</a></div>
+</div>
+<h2>Nivel A2</h2>
+<div class="grid">
+<div class="card"><h3>🏙️ La Ciudad</h3><a href="descubre-la-ciudad-A2.html" class="btn">Jugar</a></div>
+<div class="card"><h3>✍️ Oraciones</h3><a href="completar%20oraciones.A2.html" class="btn">Jugar</a></div>
+</div>
+<h2>Nivel B2</h2>
+<div class="grid">
+<div class="card"><h3>📝 Subjuntivo 1</h3><a href="subjuntivo-completa-estructura.B2.html" class="btn">Jugar</a></div>
+<div class="card"><h3>✨ Subjuntivo 2</h3><a href="subjuntivo-deseos-necesidades-B2.html" class="btn">Jugar</a></div>
+</div>
+</div>
+<footer style="text-align:center;padding:40px;color:gray">© 2026 Pao Spanish Teacher</footer>
 </body>
 </html>
