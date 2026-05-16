@@ -1,1 +1,1 @@
-# Juegos-interactivos-espa-ol
+# Juegos-interactivos
